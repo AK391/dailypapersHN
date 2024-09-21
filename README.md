@@ -10,6 +10,14 @@ Daily Papers HN is a web application that displays a curated list of daily acade
 - Responsive design with dark mode support
 - Hacker News-inspired UI
 
+## Online Demo
+
+You can try out the Daily Papers HN application online without any local setup. Visit the following link to access the live demo:
+
+[Daily Papers HN Demo](https://huggingface.co/spaces/akhaliq/dailypapershackernews)
+
+This demo is hosted on Hugging Face Spaces and provides the full functionality of the application.
+
 ## How it works
 
 1. The app fetches papers from the Hugging Face API on initialization
