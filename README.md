@@ -17,6 +17,7 @@ This demo is hosted on Hugging Face Spaces and provides the full functionality o
 - **API Interaction**: Requests library
 - **Data Processing**: Custom `PaperManager` class
 - **Hosting**: Hugging Face Spaces
+- **Development Environment**: Cursor with Claude 3.5-sonnet AI assistance
 
 ## Key Components
 
@@ -123,3 +124,7 @@ The application is deployed on Hugging Face Spaces, which provides a serverless 
 2. Create a new Space on Hugging Face, linking it to your forked repository.
 3. Configure the Space to use the `app.py` file as the entry point.
 4. Hugging Face Spaces will automatically deploy and update the app based on your repository changes.
+
+---
+
+*Note: This application was developed using Cursor with Claude 3.5-sonnet AI assistance. This README was also generated with the assistance of Claude 3.5-sonnet in Cursor AI.*
