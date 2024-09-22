@@ -280,28 +280,27 @@ a:visited {
 }
 
 .pagination button {
-    background-color: #ff6600;
-    border: 1px solid #ff6600;
-    color: white;
-    padding: 2px 6px;
-    margin: 0 5px;
+    background-color: #f0f0f0;  // Light gray background
+    border: 1px solid #d0d0d0;  // Light border
+    color: #0066cc;  // Blue text color
+    padding: 6px 12px;
+    margin: 0 3px;
     cursor: pointer;
-    font-size: 11px;
+    font-size: 14px;
+    font-weight: bold;
     border-radius: 3px;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .pagination button:hover {
-    background-color: #e55b00;
+    background-color: #e0e0e0;  // Slightly darker on hover
+    color: #004499;  // Darker blue on hover
 }
 
 .pagination button:disabled {
-    background-color: #f0f0f0;
-    color: #ccc;
+    background-color: #f8f8f8;
+    color: #999999;  // Gray text for disabled state
     cursor: not-allowed;
-}
-
-.sort-radio {
-    margin-bottom: 10px;
 }
 
 @media (max-width: 640px) {
@@ -322,8 +321,8 @@ a:visited {
     }
 
     .pagination button {
-        padding: 2px 5px;
-        font-size: 9px;
+        padding: 8px 16px;
+        font-size: 16px;
     }
 }
 
@@ -371,17 +370,19 @@ a:visited {
     }
 
     .pagination button {
-        background-color: #555;
-        border: 1px solid #555;
+        background-color: #2a2a2a;
+        border-color: #3a3a3a;
+        color: #4499ff;  // Lighter blue for dark mode
     }
 
     .pagination button:hover {
-        background-color: #666;
+        background-color: #3a3a3a;
+        color: #66b3ff;  // Even lighter blue on hover for dark mode
     }
 
     .pagination button:disabled {
-        background-color: #333;
-        color: #555;
+        background-color: #222222;
+        color: #666666;
     }
 }
 
