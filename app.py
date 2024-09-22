@@ -139,7 +139,7 @@ class PaperManager:
         </tr>
         <tr>
             <td colspan="2" class="subtext">
-                <span class="score">{upvotes} points</span> Authors: <a href="#" class="hnuser">{authors}</a> {time_ago} | <a href="#" class="comments">{comments} comments</a>
+                <span class="score">{upvotes} points</span> Authors: {authors} {time_ago} | {comments} comments
             </td>
         </tr>
         <tr class="spacer"><td colspan="2"></td></tr>
@@ -391,6 +391,41 @@ table, tr, td {
     border: none;
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+/* Remove border and add padding for the radio buttons */
+.sort-radio {
+    border: none !important;
+    padding: 10px 10px 10px 10px !important;  // Added left and right padding
+}
+
+/* Style the radio buttons to match the Hacker News theme */
+.sort-radio .gr-form {
+    border: none !important;
+    background: transparent !important;
+}
+
+.sort-radio .gr-form.gr-box {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.sort-radio .gr-radio-row {
+    padding: 0 !important;
+}
+
+/* Style the radio button labels */
+.sort-radio label span {
+    font-size: 14px;
+    color: #828282;
+    margin-left: 5px;
+    margin-right: 15px;  // Add some space between options
+}
+
+/* Style the selected radio button */
+.sort-radio input[type="radio"]:checked + label span {
+    color: #ff6600;
+    font-weight: bold;
 }
 """
 
