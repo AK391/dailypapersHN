@@ -384,6 +384,13 @@ a:visited {
         color: #555;
     }
 }
+
+/* Add these rules to explicitly remove all borders */
+table, tr, td {
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 """
 
 demo = gr.Blocks(css=css)
