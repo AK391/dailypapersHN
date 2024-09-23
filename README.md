@@ -2,7 +2,8 @@
 
 Daily Papers HN is a Python-based web application that displays academic papers in a Hacker News-like interface. It utilizes the Hugging Face Daily Papers API to fetch and present papers in a sortable, paginated list.
 
-<img width="673" alt="Screen Shot 2024-09-22 at 6 20 19 PM" src="https://github.com/user-attachments/assets/70de4016-ee8a-4d64-a704-00996584a2ce">
+<img width="1089" alt="Screen Shot 2024-09-22 at 8 02 02 PM" src="https://github.com/user-attachments/assets/2708000b-5e3f-450e-82f9-02991fc9948e">
+
 
 
 ## Web Demo
